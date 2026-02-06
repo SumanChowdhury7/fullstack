@@ -1,7 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 const app = express();
-const noteModel = require('../src/models/notes.models')
+const noteModel = require('./models/notes.models')
 const path = require('path')
 
 app.use(express.json());
